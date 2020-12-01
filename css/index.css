@@ -51,11 +51,14 @@ main{
     justify-content: center;
     align-items: center;
     padding: 5%;
+    font-size: x-large;
 }
 
 .login-form-field{
-    width: 500px;
-    height: 25px;
+    width: 750px;
+    height: 40px;
+    border: 2px solid lightgray ;
+    border-radius: 6px;
     justify-content: space-between; 
 }
 
@@ -63,7 +66,8 @@ main{
     background-color: rgb(96, 96, 255);
     border: 2px solid cyan;
     color: white;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 6px;
     font-weight: bold;
+    font-family: sans-serif;
 }
