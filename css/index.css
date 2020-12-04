@@ -71,3 +71,7 @@ main{
     font-weight: bold;
     font-family: sans-serif;
 }
+#movies{
+    diplay: grid;
+    grid-template-rows: auto;
+}
