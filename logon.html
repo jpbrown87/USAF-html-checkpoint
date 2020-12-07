@@ -3,22 +3,29 @@
     <head>
     <meta charset="utf-8">
     <title>GMDB - Login</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./index.css">
     </head>
 
     
 <body>
+    <!--Top banner, use throughout pages-->
+    <section id="topnav">
+        <header class="topnav">
+            <h2>GMDB</h2>
+        </header>
+            <div class="nav">
+                <button class="navbut" onClick="window.location.href='./logon.html'">Home</button>
+                <button class="navbut" onClick="window.location.href='./logon.html'">Login</button>
+            </div>
+            <div class="search">
+                <input id="search-box" type="text" placeholder="Search"> 
+                <button id="search-button">Search</button>    
+            </div>
+    </section>
+    <!--Top banner, use throughout pages-->
 
-    <header>
-        <h2>GMDB</h2>
-        <div id="nav">
-            <a>Home</a> &nbsp;&nbsp <a>Login</a> 
-        </div>
-        <div id="search">
-            <input id="search-box" type="text" placeholder="Search"> 
-            <button id="search-button">Search</button>    
-        </div>
-    </header>
+
+
     <main id="login-holder">
         <h1 id="login-header">Login</h1></br>
         <form id="login-form">

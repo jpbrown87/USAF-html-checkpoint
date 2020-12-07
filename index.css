@@ -2,11 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
-header{
+/*Top banner*/
+#topnav{
     display: grid;
     grid-template-rows: 50px;
-    grid-template-columns: 5%;
+    grid-template-columns: 10%;
     align-items: center;
     padding: 10px;
     width: 100%;
@@ -15,13 +15,14 @@ header{
     color: white;
 }
 
-#nav{
-    grid-column: 2/3;
-    margin-left: 10%;
-    padding: 20px;
+.navbut{
+        background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: larger;
 }
 
-#search{
+.search{
     grid-column: 20;
     justify-content: flex-end;
     align-items: center;
@@ -43,6 +44,7 @@ header{
     border-radius: 5px;
     font-weight: bold;
 }
+/*Top banner*/
 
 main{
     display: flex;
@@ -73,5 +75,44 @@ main{
 }
 #movies{
     diplay: grid;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, 25%)
+}
+#return{
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    justify-content: start;
+    align-items: center;
+    margin: 5px;
+    padding: 15px;    
+}
+.backtoresults{
+    background-color: transparent;
+    border: transparent;
+    color: yellow;
+    font-size: larger;
+}
+#movie-info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.movie-details{
+    margin-left: 25px;
+}
+
+#comment{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.comment{
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: larger;
 }
