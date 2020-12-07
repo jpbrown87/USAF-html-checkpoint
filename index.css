@@ -64,7 +64,7 @@ main{
     justify-content: space-between; 
 }
 
-#login-button{
+.login-button{
     background-color: rgb(96, 96, 255);
     border: 2px solid cyan;
     color: white;
